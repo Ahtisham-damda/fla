@@ -3,6 +3,8 @@
     --primary: black;
     --light: #F0FBFC;
     --dark: #181d38;
+    --flatheme:#173041;
+    --secondary: #ED224F;
 }
 
 
@@ -202,7 +204,7 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover; */
-  background-color:#c2143b ;
+  background-color:#173041 ;
 }
 
 .page-header-inner {
@@ -262,7 +264,7 @@
 
 .service-item:hover {
     margin-top: -10px;
-    background: var(--primary);
+    background: var(--secondary);
 }
 
 .service-item * {
@@ -436,7 +438,8 @@
 }
 
 #FlaLogo{
-margin: 20px;    
+margin: 20px;
+border-radius: 50%;    
 }
 
 #flabtn{
@@ -520,4 +523,6 @@ body{
     color: white;
     border-radius: 15px;
  }
- 
+ #navbarTheme{
+    background-color: #ED224F;
+ }

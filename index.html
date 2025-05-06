@@ -8,7 +8,11 @@
     <meta content="" name="description" />
 
     <!-- Favicon -->
-    <link rel="icon" href="/elearning-1.0.0/Flaimage/flaTitleLogo.png" type="image/x-icon">
+    <link
+      rel="icon"
+      href="/fla/Flaimage/flaTitleLogo.png"
+      type="image/x-icon"
+    />
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -38,35 +42,20 @@
     <link href="css/style.css" rel="stylesheet" />
   </head>
   <style>
-    #imageeng{
-width: 100%;
+    #imageeng {
+      width: 100%;
     }
 
-    #imagearabic{
-
+    #imagearabic {
       height: 242px;
     }
   </style>
 
   <body>
-    <!-- Spinner Start -->
-    <div
-      id="spinner"
-      class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
-    >
-      <div
-        class="spinner-border text-danger"
-        style="width: 3rem; height: 3rem"
-        role="status"
-      >
-        <span class="sr-only">Loading...</span>
-      </div>
-    </div>
-    <!-- Spinner End -->
-
     <!-- Navbar Start -->
-    <nav
-      class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0"
+    <nav 
+    id="navbarTheme"
+      class="navbar navbar-expand-lg navbar-light shadow sticky-top p-0"
     >
       <!-- <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
             <h2 class="m-0 text-danger"><i class="fa fa-book me-3"></i>eLEARNING</h2>
@@ -75,19 +64,10 @@ width: 100%;
         fetchpriority="high"
         width="100"
         height="100"
-        src="https://flacademy.co.in/wp-content/uploads/2022/12/F.L.A-New-Logo-1024x1024.png"
+        src="/fla/Flaimage/FlaLogo.jpeg"
         class="attachment-large size-large wp-image-8131"
         id="FlaLogo"
         alt=""
-        srcset="
-          https://flacademy.co.in/wp-content/uploads/2022/12/F.L.A-New-Logo-1024x1024.png 1024w,
-          https://flacademy.co.in/wp-content/uploads/2022/12/F.L.A-New-Logo-300x300.png    300w,
-          https://flacademy.co.in/wp-content/uploads/2022/12/F.L.A-New-Logo-150x150.png    150w,
-          https://flacademy.co.in/wp-content/uploads/2022/12/F.L.A-New-Logo-768x768.png    768w,
-          https://flacademy.co.in/wp-content/uploads/2022/12/F.L.A-New-Logo-1536x1536.png 1536w,
-          https://flacademy.co.in/wp-content/uploads/2022/12/F.L.A-New-Logo-12x12.png       12w,
-          https://flacademy.co.in/wp-content/uploads/2022/12/F.L.A-New-Logo.png           1731w
-        "
         sizes="(max-width: 800px) 100vw, 800px"
       />
       <button
@@ -105,7 +85,8 @@ width: 100%;
           <a href="courses.html" class="nav-item nav-link active">Courses</a>
           <div class="nav-item dropdown">
             <a
-              href="#" id="Pages"
+              href="#"
+              id="Pages"
               class="nav-link dropdown-toggle"
               data-bs-toggle="dropdown"
               >Pages</a
@@ -118,7 +99,10 @@ width: 100%;
           </div>
           <a href="contact.html" class="nav-item nav-link">Contact</a>
         </div>
-        <a href="CourseRegistration.html" id="navButton"  class="btn py-4 px-lg-5 d-none  d-lg-block"
+        <a
+          href="CourseRegistration.html"
+          id="navButton"
+          class="btn py-4 px-lg-5 d-none d-lg-block"
           >Join Now<i class="fa fa-arrow-right ms-3"></i
         ></a>
       </div>
@@ -129,11 +113,7 @@ width: 100%;
     <div class="container-fluid p-0 mb-5">
       <div class="owl-carousel header-carousel position-relative">
         <div class="owl-carousel-item position-relative">
-          <img
-            class="img-fluid"
-            src="Flaimage/fla1.jpg"
-            alt=""
-          />
+          <img class="img-fluid" src="Flaimage/fla1.jpg" alt="" />
           <div
             class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
             style="background: rgba(24, 29, 56, 0.7)"
@@ -153,12 +133,14 @@ width: 100%;
                   </p>
                   <a
                     href="about.html"
-                    class=" btn py-md-3 px-md-5 me-3 animated slideInLeft" id="flabtn"
+                    class="btn py-md-3 px-md-5 me-3 animated slideInLeft"
+                    id="flabtn"
                     >Read More</a
                   >
                   <a
                     href="contact.html"
-                    class="btn btn-light py-md-3 px-md-5 animated slideInRight" id="btnbtn"
+                    class="btn btn-light py-md-3 px-md-5 animated slideInRight"
+                    id="btnbtn"
                     >Join Now</a
                   >
                 </div>
@@ -167,11 +149,7 @@ width: 100%;
           </div>
         </div>
         <div class="owl-carousel-item position-relative">
-          <img
-            class="img-fluid"
-            src="Flaimage/fla2.jpg"
-            alt=""
-          />
+          <img class="img-fluid" src="Flaimage/fla2.jpg" alt="" />
           <div
             class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
             style="background: rgba(24, 29, 56, 0.7)"
@@ -195,12 +173,14 @@ width: 100%;
                   </p>
                   <a
                     href="about.html"
-                    class="btn btn-danger py-md-3 px-md-5 me-3 animated slideInLeft"id="flabtn"
+                    class="btn btn-danger py-md-3 px-md-5 me-3 animated slideInLeft"
+                    id="flabtn"
                     >Read More</a
                   >
                   <a
                     href="contact.html"
-                    class="btn btn-light py-md-3 px-md-5 animated slideInRight"id="btnbtn"
+                    class="btn btn-light py-md-3 px-md-5 animated slideInRight"
+                    id="btnbtn"
                     >Join Now</a
                   >
                 </div>
@@ -231,7 +211,7 @@ width: 100%;
           <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
             <div class="service-item text-center pt-3">
               <div class="p-4">
-                <i class="fa fa-3x fa-globe  mb-4" id="png"></i>
+                <i class="fa fa-3x fa-globe mb-4" id="png"></i>
                 <h5 class="mb-3">Classes</h5>
                 <p>
                   Introductory Classes, Intermediate Classes, Advanced Classes,
@@ -243,7 +223,7 @@ width: 100%;
           <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
             <div class="service-item text-center pt-3">
               <div class="p-4">
-                <i class="fa fa-3x fa-home  mb-4" id="png"></i>
+                <i class="fa fa-3x fa-home mb-4" id="png"></i>
                 <h5 class="mb-3">Home Projects</h5>
                 <p>
                   Projects where you create things yourself without professional
@@ -346,7 +326,12 @@ width: 100%;
                 </p>
               </div>
             </div>
-            <a class="btn btn-danger py-3 px-5 mt-2" href="about.html"id="flabtn">Read More</a>
+            <a
+              class="btn btn-danger py-3 px-5 mt-2"
+              href="about.html"
+              id="flabtn"
+              >Read More</a
+            >
           </div>
         </div>
       </div>
@@ -364,21 +349,35 @@ width: 100%;
         </div>
         <div class="row g-3">
           <div class="col-lg-7 col-md-6">
-              <div class="row g-3">
-                  <div class="col-lg-12 col-md-12 wow zoomIn" data-wow-delay="0.1s">
-                      <a class="position-relative d-block overflow-hidden" href="EnglishCourses.html">
-                          <img class="img-fluid" id="imageeng" src="Flaimage/english5.png" alt="">
-                          <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
-                              style="margin: 1px;">
-                              <h5 class="m-0">English Spoken Courses</h5>
-                              <small class="text-danger">5 Courses</small>
-                          </div>
-                      </a>
-                  </div>
-              <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.3s">
-                <a class="position-relative d-block overflow-hidden" href="ArabicCourses.html">
+            <div class="row g-3">
+              <div class="col-lg-12 col-md-12 wow zoomIn" data-wow-delay="0.1s">
+                <a
+                  class="position-relative d-block overflow-hidden"
+                  href="EnglishCourses.html"
+                >
                   <img
-                    class="img-fluid" id="imagearabic"
+                    class="img-fluid"
+                    id="imageeng"
+                    src="Flaimage/english5.png"
+                    alt=""
+                  />
+                  <div
+                    class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
+                    style="margin: 1px"
+                  >
+                    <h5 class="m-0">English Spoken Courses</h5>
+                    <small class="text-danger">5 Courses</small>
+                  </div>
+                </a>
+              </div>
+              <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.3s">
+                <a
+                  class="position-relative d-block overflow-hidden"
+                  href="ArabicCourses.html"
+                >
+                  <img
+                    class="img-fluid"
+                    id="imagearabic"
                     src="Flaimage/arabicl.jpg"
                     alt=""
                   />
@@ -392,7 +391,10 @@ width: 100%;
                 </a>
               </div>
               <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.5s">
-                <a class="position-relative d-block overflow-hidden" href="#popularCourses">
+                <a
+                  class="position-relative d-block overflow-hidden"
+                  href="#popularCourses"
+                >
                   <img
                     class="img-fluid"
                     src="Flaimage/fla7.jpg"
@@ -415,14 +417,16 @@ width: 100%;
             data-wow-delay="0.7s"
             style="min-height: 350px"
           >
-            <a class="position-relative d-block h-100 overflow-hidden" href="#popularCourses">
+            <a
+              class="position-relative d-block h-100 overflow-hidden"
+              href="#popularCourses"
+            >
               <img
                 class="img-fluid position-absolute w-100 h-100"
                 src="Flaimage/fla6.jpg"
                 alt=""
                 style="object-fit: cover"
               />
-             
             </a>
           </div>
         </div>
@@ -443,11 +447,7 @@ width: 100%;
           <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
             <div class="course-item bg-light">
               <div class="position-relative overflow-hidden">
-                <img
-                  class="img-fluid"
-                  src="Flaimage/fla5.jpg"
-                  alt=""
-                />
+                <img class="img-fluid" src="Flaimage/fla5.jpg" alt="" />
                 <div
                   class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4"
                 >
@@ -486,8 +486,7 @@ width: 100%;
                   ><i class="fa fa-clock text-danger me-2"></i>1 Hr</small
                 >
                 <small class="flex-fill text-center py-2"
-                  ><i class="fa fa-user text-danger me-2"></i>15
-                  Students</small
+                  ><i class="fa fa-user text-danger me-2"></i>15 Students</small
                 >
               </div>
             </div>
@@ -539,8 +538,7 @@ width: 100%;
                   ><i class="fa fa-clock text-danger me-2"></i>1 Hr</small
                 >
                 <small class="flex-fill text-center py-2"
-                  ><i class="fa fa-user text-danger me-2"></i>15
-                  Students</small
+                  ><i class="fa fa-user text-danger me-2"></i>15 Students</small
                 >
               </div>
             </div>
@@ -592,8 +590,7 @@ width: 100%;
                   ><i class="fa fa-clock text-danger me-2"></i>1 Hr</small
                 >
                 <small class="flex-fill text-center py-2"
-                  ><i class="fa fa-user text-danger me-2"></i>15
-                  Students</small
+                  ><i class="fa fa-user text-danger me-2"></i>15 Students</small
                 >
               </div>
             </div>
@@ -616,11 +613,7 @@ width: 100%;
           <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
             <div class="team-item bg-light">
               <div class="overflow-hidden">
-                <img
-                  class="img-fluid"
-                  src="Flaimage/Profaeraf.jpeg"
-                  alt=""
-                />
+                <img class="img-fluid" src="Flaimage/Profaeraf.jpeg" alt="" />
               </div>
               <div
                 class="position-relative d-flex justify-content-center"
@@ -656,11 +649,7 @@ width: 100%;
           <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
             <div class="team-item bg-light">
               <div class="overflow-hidden">
-                <img
-                  class="img-fluid"
-                  src="Flaimage/ProfFahad.jpeg"
-                  alt=""
-                />
+                <img class="img-fluid" src="Flaimage/ProfFahad.jpeg" alt="" />
               </div>
               <div
                 class="position-relative d-flex justify-content-center"
@@ -690,11 +679,7 @@ width: 100%;
           <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
             <div class="team-item bg-light">
               <div class="overflow-hidden">
-                <img
-                  class="img-fluid"
-                  src="Flaimage/ProfShuraim.jpeg"
-                  alt=""
-                />
+                <img class="img-fluid" src="Flaimage/ProfShuraim.jpeg" alt="" />
               </div>
               <div
                 class="position-relative d-flex justify-content-center"
@@ -721,11 +706,7 @@ width: 100%;
           <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
             <div class="team-item bg-light">
               <div class="overflow-hidden">
-                <img
-                  class="img-fluid"
-                  src="Flaimage/ProfTanoof.jpeg"
-                  alt=""
-                />
+                <img class="img-fluid" src="Flaimage/ProfTanoof.jpeg" alt="" />
               </div>
               <div
                 class="position-relative d-flex justify-content-center"
@@ -835,16 +816,24 @@ width: 100%;
               <i class="fa fa-envelope me-3"></i>flacademy@gmail.com
             </p>
             <div class="d-flex pt-2">
-              <a class="btn btn-outline-light btn-social" href="https://x.com/flacademybkl/"
+              <a
+                class="btn btn-outline-light btn-social"
+                href="https://x.com/flacademybkl/"
                 ><i class="fab fa-twitter"></i
               ></a>
-              <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/flacademybkl/"
+              <a
+                class="btn btn-outline-light btn-social"
+                href="https://www.facebook.com/flacademybkl/"
                 ><i class="fab fa-facebook-f"></i
               ></a>
-              <a class="btn btn-outline-light btn-social" href="https://www.youtube.com/@flacademybkl"
+              <a
+                class="btn btn-outline-light btn-social"
+                href="https://www.youtube.com/@flacademybkl"
                 ><i class="fab fa-youtube"></i
               ></a>
-              <a class="btn btn-outline-light btn-social" href="https://www.instagram.com/flacademybkl/"
+              <a
+                class="btn btn-outline-light btn-social"
+                href="https://www.instagram.com/flacademybkl/"
                 ><i class="fab fa-instagram"></i
               ></a>
             </div>
